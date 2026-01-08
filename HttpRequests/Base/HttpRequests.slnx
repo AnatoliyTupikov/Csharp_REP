@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="../Cookies/Cookies.csproj" Id="05120ed6-0472-4383-b0cc-4763050bd2a0" />
+  <Project Path="../HTTP_ErrorHandlig/HTTP_ErrorHandlig.csproj" />
+  <Project Path="../RequestHandler/HandPipeline.csproj" Id="05b70348-7c58-45a8-8270-5ce505334ae6" />
+  <Project Path="../Tools_SharedProject/Tools_SharedProject.shproj" Id="2856f212-aa5f-412c-8f36-84a4318a4d34" />
+  <Project Path="../_HttpClientFactory/_HttpClientFactory.csproj" Id="a2ffe7db-6fca-4549-a2fc-d6d6a0ca3d02" />
+  <Project Path="../_HttpRequestMessage/_HttpRequestMessage.csproj" />
+  <Project Path="Base.csproj" />
+</Solution>
