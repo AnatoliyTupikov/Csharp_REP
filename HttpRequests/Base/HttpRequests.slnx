@@ -5,5 +5,6 @@
   <Project Path="../Tools_SharedProject/Tools_SharedProject.shproj" Id="2856f212-aa5f-412c-8f36-84a4318a4d34" />
   <Project Path="../_HttpClientFactory/_HttpClientFactory.csproj" Id="a2ffe7db-6fca-4549-a2fc-d6d6a0ca3d02" />
   <Project Path="../_HttpRequestMessage/_HttpRequestMessage.csproj" />
+  <Project Path="../_Uri/_Uri.csproj" Id="13a1ffa3-223c-431d-994d-baaa041d474f" />
   <Project Path="Base.csproj" />
 </Solution>

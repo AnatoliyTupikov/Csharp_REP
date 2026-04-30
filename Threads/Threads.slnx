@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Synchronization/">
+    <Project Path="_Lock/_Lock.csproj" />
+    <Project Path="_Mutex/_Mutex.csproj" />
+    <Project Path="_Semaphore/_Semaphore.csproj" Id="ef196ab7-2ff0-4e1e-8d62-ec09d41457a3" />
+  </Folder>
+  <Project Path="Creaating&amp;Managing/CreatingThreads.csproj" Id="97147ff3-d398-4c7d-b641-b18f28d30402" />
+  <Project Path="IsBackground/IsBackground&amp;Join().csproj" Id="5991606e-6da2-4581-bd83-a06bcd1e874e" />
+  <Project Path="X:/VisualStudio/Repos/Csharp_REP/Threads/Base/Base.csproj" />
+</Solution>

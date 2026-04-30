@@ -1,4 +1,4 @@
-﻿//#define BASE_IHttpClientFactory
+﻿#define BASE_IHttpClientFactory
 //#define Named_IHttpClientFactory
 //#define HandlersPipeLine_IHttpClientFactory
 using Microsoft.Extensions.DependencyInjection;  // Microsoft.Extensions.Http nuget package for AddHttpClient()
@@ -10,7 +10,7 @@ namespace _HttpClientFactory
 #if BASE_IHttpClientFactory 
     public sealed class TodoClass
         (
-        IHttpClientFactory httpClientFactory // IHttpClientFactory is injected via constructor
+            IHttpClientFactory httpClientFactory // IHttpClientFactory is injected via constructor
         )
     {
         public async Task<string> GetEcho()

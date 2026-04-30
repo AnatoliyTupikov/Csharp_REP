@@ -16,7 +16,7 @@ namespace HttpRequests
             {
 
                 HttpClient client = new HttpClient(); // is a collection of settings that's applied to all requests executed by that instance, and each instance uses its own connection pool, which isolates its requests from others.
-                // It should be resused as much as possible, because it includes SocketsHttpHandler that manages connection pools.
+                // It should be reused as much as possible, because it includes SocketsHttpHandler that manages connection pools.
                 // Often reusing HttpClient to lead to the port exhaustion problem, when many connections are opened in a short time and not closed yet.
                 // More information https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines#recommended-use
 

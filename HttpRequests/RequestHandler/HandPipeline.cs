@@ -34,6 +34,8 @@ namespace HttpRequests
 
             var MainClient = new HttpClient(loggingHandler);
 
+            MainClient.BaseAddress = new Uri("https://postman-echo.com/");
+
             //Create a request for BaseAuthHandler:
             string Username = "postman", Password = "password";
             using HttpRequestMessage AuthReqMessage = new HttpRequestMessage(HttpMethod.Get, new Uri("https://postman-echo.com/basic-auth"));
@@ -41,7 +43,7 @@ namespace HttpRequests
             AuthReqMessage.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", authValue);
 
             //Create main request:
-            using HttpRequestMessage req = new HttpRequestMessage(HttpMethod.Get, "https://postman-echo.com/headers");
+            using HttpRequestMessage req = new HttpRequestMessage(HttpMethod.Get, "headers");
             //Provide a request meta data for pipeline hendlers (in the case: for BaseAuthHandler):
             req.Options.Set<HttpRequestMessage>(new HttpRequestOptionsKey<HttpRequestMessage>("auth_request"), AuthReqMessage);
 

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OverloadedConversionOperator/OverloadedConversionOperator.csproj" Id="53cef254-7511-4e38-867d-551cc03a253e" />
+  <Project Path="OverloadedOperators/OverlodedBinaryOperators.csproj" />
+</Solution>
